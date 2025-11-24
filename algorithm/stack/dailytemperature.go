@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"slices"
 )
 
@@ -63,8 +62,4 @@ func dailyTemperaturesv3(T []int) []int {
 		stack = append(stack, i)
 	}
 	return res
-}
-
-func main() {
-	fmt.Println(dailyTemperaturesv2([]int{30, 40, 50, 60}))
 }
